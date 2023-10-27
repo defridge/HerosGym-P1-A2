@@ -1,0 +1,37 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background-color: green
+}
+
+#hero-logo {
+    background: url("../images/01-min.jpg") no-repeat center center/contain;
+    height: 10vh;
+    background-color: rgba(14, 13, 18, 255);
+}
+
+/* Main Content */
+main {
+    background-color: white;
+    flex-grow: 1;
+}
+
+/* Footer */
+footer {
+    background-color: orange;
+}
