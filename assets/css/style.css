@@ -12,26 +12,131 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto Slab', serif;
 }
 
 /* Header */
 header {
-    background-color: green
+    background-color: rgba(14, 13, 15, 255);
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
 }
 
-#hero-logo {
-    background: url("../images/Screenshot\ 2023-10-27\ at\ 15.44.18-min.png") no-repeat center center/contain;
-    height: 10vh;
-    background-color: rgba(14, 13, 18, 255);
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    padding-left: 10px;
+}
+
+#menu {
+    list-style: none;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+#menu > li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.active {
+    border-bottom: 1px solid white
+}
+
+nav {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
 }
 
 /* Main Content */
 main {
     background-color: white;
     flex-grow: 1;
+    margin-top: 64px;
 }
 
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: #e20000;
+    height: 4rem;
+}
+
+/* Styles for Social Media Icons */
+#social-network {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#social-network i {
+    font-size: 180%;
+    color: white
+}
+
+/* Media query: Tablets and larger screens from 768px and up */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-top: 10px;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #menu > li {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+}
+
+/* Media query: Tablets and larger screens from 992px and up */
+@media screen and (min-width: 992px) {
+
+    /* Header */
+    a:hover {
+        background-color: #e20000;
+    }
+
+    a:hover {
+        color: black;
+    }
 }
