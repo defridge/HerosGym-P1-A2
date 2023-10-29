@@ -105,11 +105,16 @@ main {
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 20px;
+    border: 1px solid #0e0d0f
 }
 
 #main-content-wrapper h3 {
     color: #e20000;
     font-size: 200%;
+}
+
+#main-content-wrapper {
+    padding: 0px 20px;
 }
 
 #icon {
@@ -200,7 +205,7 @@ footer {
     }
 
     #main-content, #main-content-wrapper {
-        font-size: 150%;
+        font-size: 100%;
     }
 
     #info {
@@ -213,13 +218,29 @@ footer {
     }
 
     #main-content-wrapper {
-        display: flex;
         margin: 0px 10px;
+        font-size: 15px;
+    }
+
+    #tablet-pc-container {
+        display: flex;
+    }
+
+    #image-box {
+        width: 50%;
+    }
+
+    #image-wording {
+        width: 50%;
     }
 
     #info {
         padding: 0px 20px;
     }
+
+    #one-step, #two-step, #three-step {
+        margin-bottom: 0px;
+        }
 }
 
 /* Media query: Tablets and larger screens from 992px and up */
@@ -236,5 +257,17 @@ footer {
 
     #title {
         font-size: 200%;
+    }
+
+    #image-wording {
+        font-size: xx-large;
+    }
+
+    #main-content-wrapper {
+        font-size: 40px;
+    }
+
+    #time, #address {
+        font-size: 100%;
     }
 }
