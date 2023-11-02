@@ -145,8 +145,18 @@ iframe {
 /* Timetable Page Styling*/
 
 table, th, td {
-    border: 1px solid;
+    border: 1px solid #0e0d0f;
     text-align: center;
+    padding: 2px;
+}
+
+th {
+    background-color: #e20000;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
 }
 
 table {
@@ -180,10 +190,10 @@ table {
     padding: 20px 10px;
 }
 
-/*#class-descriptions h3 {
-    background-color: #0e0d0f;
-    color: white;
-}*/
+#table-wrapper {
+    overflow-x: auto;
+    padding: 0px 10px;
+}
 
 /* Footer */
 footer {
@@ -274,6 +284,14 @@ footer {
     #one-step, #two-step, #three-step {
         margin-bottom: 0px;
         }
+
+    #table-wrapper {
+        padding: 0px 30px;
+    }
+
+    #class-descriptions {
+        padding: 20px 30px;
+    }
 }
 
 /* Media query: Tablets and larger screens from 992px and up */
@@ -302,5 +320,17 @@ footer {
 
     #time, #address {
         font-size: 100%;
+    }
+
+    main {
+        margin: 0px;
+    }
+
+    header {
+        position: relative;
+    }
+
+    #timetable-image {
+        height: 400px;
     }
 }
