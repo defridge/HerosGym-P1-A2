@@ -182,10 +182,6 @@ table {
     text-transform: uppercase;
 }
 
-/*#class-2, #class-4, #class-6, #class-8 {
-    text-align: right;
-}*/
-
 #class-descriptions {
     padding: 20px 10px;
 }
@@ -193,6 +189,11 @@ table {
 #table-wrapper {
     overflow-x: auto;
     padding: 0px 10px;
+}
+
+/* Gallery Styles*/
+#photo img {
+    width: 100%
 }
 
 /* Footer */
@@ -292,6 +293,11 @@ footer {
     #class-descriptions {
         padding: 20px 30px;
     }
+
+    #photo {
+        column-count: 2;
+        column-gap: 3px;
+    }
 }
 
 /* Media query: Tablets and larger screens from 992px and up */
@@ -373,6 +379,11 @@ footer {
 
     #icon {
         font-size: 3rem;
+    }
+
+    #photo {
+        column-count: 4;
+        column-gap: 3px;
     }
 
 }
