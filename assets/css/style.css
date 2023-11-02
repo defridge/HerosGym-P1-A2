@@ -182,9 +182,9 @@ table {
     text-transform: uppercase;
 }
 
-#class-2, #class-4, #class-6, #class-8 {
+/*#class-2, #class-4, #class-6, #class-8 {
     text-align: right;
-}
+}*/
 
 #class-descriptions {
     padding: 20px 10px;
@@ -333,4 +333,46 @@ footer {
     #timetable-image {
         height: 400px;
     }
+ 
+       
+    #table-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    #timetable-color {
+        font-size: 3rem;
+    }
+
+    table {
+        font-size: 20px;
+    }
+
+    table, th, td {
+        padding: 10px;
+    }
+
+    #class-descriptions {
+        padding: 20px 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #class-1, #class-2, #class-3, #class-4, #class-5, #class-6, #class-7, #class-8 {
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    #main-content {
+        font-size: 1.5rem;
+    }
+
+    #main-content-wrapper {
+        font-size: 2rem;
+    }
+
+    #icon {
+        font-size: 3rem;
+    }
+
 }
