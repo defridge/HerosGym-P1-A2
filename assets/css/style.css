@@ -77,6 +77,8 @@ main {
     background-color: white;
     flex-grow: 1;
     margin-top: 64px;
+    display: flex;
+    flex-direction: column;
 }
 
 #owner-image {
@@ -196,6 +198,24 @@ table {
     width: 100%
 }
 
+#gallery-heading {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #e20000;
+    color: white;
+}
+
+/* Sign up Page Styles*/
+#signup {
+    background-image: url("../images/Pic\ 45-min.jpeg");
+    flex-grow: 1;
+    background-position: 50%;
+    background-size: cover;
+}
+
+#signup-form {
+    color: white;
+}
 /* Footer */
 footer {
     background-color: #e20000;
@@ -384,6 +404,10 @@ footer {
     #photo {
         column-count: 4;
         column-gap: 3px;
+    }
+
+    #gallery-heading {
+        font-size: 3rem;
     }
 
 }
