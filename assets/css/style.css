@@ -118,7 +118,7 @@ main {
     padding: 0px 20px;
 }
 
-#icon {
+#icon-1, #icon-2, #icon-3 {
     font-size: 2rem;
 }
 
@@ -203,6 +203,10 @@ table {
     text-align: center;
     background-color: #e20000;
     color: white;
+}
+
+#hidden {
+    display: none;
 }
 
 /* Sign up Page Styles*/
@@ -420,7 +424,7 @@ footer {
         font-size: 2rem;
     }
 
-    #icon {
+    #icon-1, #icon-2, #icon-3 {
         font-size: 3rem;
     }
 
