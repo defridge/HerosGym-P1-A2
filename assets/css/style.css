@@ -215,6 +215,24 @@ table {
 
 #signup-form {
     color: white;
+    background-color: rgba(226, 0, 1, 0.5);
+    padding: 30px;
+    border: 2px solid white;
+    margin: 20px;
+    top: 100px;
+    position: relative;
+}
+
+.text-input {
+    width: 100%;
+}
+
+#signup-form > h2, h3 {
+    text-transform: uppercase;
+}
+
+.submit-button {
+    font-size: 1rem;
 }
 /* Footer */
 footer {
@@ -318,6 +336,11 @@ footer {
         column-count: 2;
         column-gap: 3px;
     }
+
+    #signup-form {
+        width: 50%;
+        left: 180px;
+    }
 }
 
 /* Media query: Tablets and larger screens from 992px and up */
@@ -408,6 +431,17 @@ footer {
 
     #gallery-heading {
         font-size: 3rem;
+    }
+
+    #signup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #signup-form {
+        width: 30%;
+        left: 0px;
     }
 
 }

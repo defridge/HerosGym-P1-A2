@@ -35,8 +35,9 @@
     <!-- Main Content -->
     <main>
         <section id="signup">
-            <form id="signup-form" action="" method="post">
-                <h2>Fill out your details below to get signed up</h2>
+            <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
+                <h2>For more information on membership options please enter your details below</h2>
+                <br>
                 <label for="first_name">First Name</label>
                 <input id="first_name" type="text" name="first_name" class="text-input" required>
                 <br>
@@ -46,6 +47,21 @@
                 <label for="email_address">Email Address</label>
                 <input id="email_address" type="email" name="mail_address" class="text-input" required>
                 <br>
+                <br>
+                <h3>What type of membership are you interested in?</h3>
+                <br>
+                <div id="radio-button">
+                    <div>
+                        <label for="gym_only">Gym Only</label>
+                        <input type="radio" name="membership_type" id="gym_only" value="gym_only" required checked>
+                    </div>
+                    <div>
+                        <label for="gym_&_classes">Gym & Classes</label>
+                        <input type="radio" name="membership_type" id="gym_&_classes" value="gym_&_classes" required>
+                    </div>
+                </div>
+                <br>
+                <button type="submit" class="submit-button">Submit</button>
             </form>
         </section>
     </main>
