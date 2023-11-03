@@ -231,7 +231,7 @@ table {
     width: 100%;
 }
 
-#signup-form > h2, h3 {
+#signup-form > h1, h3 {
     text-transform: uppercase;
 }
 
