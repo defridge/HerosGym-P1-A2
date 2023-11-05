@@ -238,6 +238,7 @@ table {
 .submit-button {
     font-size: 1rem;
 }
+
 /* Footer */
 footer {
     background-color: #e20000;
@@ -355,6 +356,10 @@ footer {
         background-color: #e20000;
     }
 
+    header a {
+        font-size: 1.5rem;
+    }
+
     a:hover {
         color: black;
     }
@@ -364,7 +369,7 @@ footer {
     }
 
     #image-wording {
-        font-size: xx-large;
+        font-size: x-large;
     }
 
     #main-content-wrapper {
@@ -414,10 +419,6 @@ footer {
     #class-1, #class-2, #class-3, #class-4, #class-5, #class-6, #class-7, #class-8 {
         text-align: center;
         padding: 0px 20px;
-    }
-
-    #main-content {
-        font-size: 1.5rem;
     }
 
     #main-content-wrapper {
