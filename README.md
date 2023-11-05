@@ -65,12 +65,12 @@ Using this website you will be able to find all relevant information about the g
 
 - I have tested the webpage across all different screen sizes, desktop, laptop, tablet and mobile and it is responsive and functions as intended.
 - All links work as intended and open in new tabs were required.
-- All text is readble and the contrast between text colours and background works well and causes no issues.
+- All text is readable and the contrast between text colours and background works well and causes no issues.
 - I have confirmed that the form on the signup page works, all text and radio buttons require an input and the email address box requires a valid email address format.
 
 ### Bugs
 
-- When using validations tools I discovered that the image file paths had blank spaces which needed to be filled with "%20".
+- When using validation tools I discovered that the image file paths had blank spaces which needed to be filled with "%20".
 
 ### Validator Testing
 
@@ -79,3 +79,23 @@ Using this website you will be able to find all relevant information about the g
 - Accessibility: I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in Dev Tools.
 
 ![Lighthouse](assets/images/lighthouse.png)
+
+## Deployment
+
+- The site was deployed to GitHub pages.
+- In the GitHub repository, navigate to the Settings tab.
+- From the source section drop-down menu, select the Master Branch.
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The link to the live site can be found here: [Heros Gym](https://defridge.github.io/HerosGym-P1-A2/)
+
+## Credits
+
+### Content
+
+- The code for the footer section using the social media icons were taken from the CI Love Running project.
+- The code to style the table for the Timetable page was taken from [w3schools](https://www.w3schools.com/css/css_table.asp)
+
+### Images
+
+- All images used for the website were taken by myself.
