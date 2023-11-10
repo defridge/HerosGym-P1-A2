@@ -259,6 +259,48 @@ footer {
     color: white
 }
 
+/* Thank you page Styles*/
+#thank-you {
+    color: white;
+    background-color: rgba(226, 0, 1, 0.5);
+    padding: 10px;
+    border: 2px solid white;
+    margin: 20px;
+    top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+#thank-you > h1 {
+    text-transform: uppercase;
+}
+
+#thank-you > h2 {
+    text-transform: none;
+}
+
+/* 404 Styling */
+#return-home > a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white
+}
+
+/* Hidden Nav Icon Styles */
+.sr-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
 /* Media query: Tablets and larger screens from 768px and up */
 @media screen and (min-width: 768px) {
 
