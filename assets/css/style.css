@@ -166,7 +166,7 @@ table {
 }
 
 #timetable-image {
-    background: url("../images/WhatsApp\ Image\ 2022-12-27\ at\ 13.06.06.jpeg") no-repeat center center/cover;
+    background: url("../images/WhatsApp-Image-2022-12-27-at-13.06.06.webp") no-repeat center center/cover;
     width: 100%;
     height: 200px;
     display: flex;
@@ -211,7 +211,7 @@ table {
 
 /* Sign up Page Styles*/
 #signup {
-    background-image: url("../images/Pic\ 45-min.jpeg");
+    background-image: url("../images/Pic-45-min.webp");
     flex-grow: 1;
     background-position: 50%;
     background-size: cover;
