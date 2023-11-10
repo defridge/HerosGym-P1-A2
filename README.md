@@ -5,7 +5,7 @@ The Heros Gym website is designed to give potential members an overview of the g
 Using this website you will be able to find all relevant information about the gym including opening and closing times, the class timetable and descriptions of the classes we teach and a gallery showcasing the gym layout and equipment available. There is also a form section where potential members can register their interest and will be sent membership pricing.
 
 
-![Responsive Mockup](assets/images/mockup-min.png)
+![Responsive Mockup](assets/images/mockup.webp)
 
 ## Features
 
@@ -43,9 +43,8 @@ Using this website you will be able to find all relevant information about the g
 - Below the image and the heading we have the full weekly gym class timetable which is coded as a table styled in red, white and grey which shows the name of the gym classes, the times they start, how long they run for and the days in which the classes take place.
 - When viewing this page on a mobile screen the table is set to side scroll so it does not distort the layout of the page.
 - Below the timetable is a detailed description of all the classes which allows the user of the website to get an idea of how the class is taught.
-- On larger screens this class description is displayed in a column style while viewing this page on tablet and mobile will show in rows.
 
-![Timetable](assets/images/timetable-min.png)
+![Timetable](assets/images/timetable.webp)
 
 ### Gallery Page
 
@@ -60,6 +59,35 @@ Using this website you will be able to find all relevant information about the g
 - The last page on the website is the signup page. Here users are asked to enter some basic contact info and to choose which membership option they are interested in and submit a request to join the gym.
 
 ![Signup](assets/images/signup.png)
+
+### Thank You Page
+
+- When a user of the site completes the form on the sign up page and hits submit they will be redirected to the thank you page which confirms the form submission has been succesful and after 10 secounds they will be automatically taken back to the webiste homepage.
+
+![Thankyou](assets/images/thankyou.webp)
+
+### 404 Error Page
+
+- A custome 404 page will be implemented and will display if a user navigates to a broken link.
+- The 404 page will allow the webiste user to navigate back to the homepage if they end up on a broken link / missing page, without the need of the browsers back button.
+
+![404](assets/images/404.webp)
+
+## Technologies
+
+- HTML
+  - The webpage structure was created using HTML as the main language.
+- CSS
+  - The styling of the webiste was done using custom CSS saved in an external file.
+- IDE
+  - The website was developed using Codeanywhere IDE.
+- Github
+  - The source code is hosted on Github and deployed using Git Pages.
+- Git
+  - Git was used to commit and push code during the project.
+- Favicon.io
+  - Favicon files were created at [favicon.io](https://favicon.io/favicon-converter/)
+
 
 ## Testing
 
