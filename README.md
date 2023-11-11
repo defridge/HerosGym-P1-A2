@@ -99,10 +99,55 @@ Using this website you will be able to find all relevant information about the g
 - The timetable was given CSS code overflow to allow for screenscrolling on mobile phones screen sizes as reducing font size to fit made the content unreadable.
 - Some devices website was tested on outside of Dev Tools were: Iphone 11, Samsung A6, Macbook Air, HP M27fw FHD monitor.
 
-- I have tested the webpage across all different screen sizes, desktop, laptop, tablet and mobile and it is responsive and functions as intended.
-- All links work as intended and open in new tabs were required.
-- All text is readable and the contrast between text colours and background works well and causes no issues.
-- I have confirmed that the form on the signup page works, all text and radio buttons require an input and the email address box requires a valid email address format.
+### Accessibility
+
+- [Wave Accessibility](https://wave.webaim.org/) was used to test accessibility on final deployed website.
+- All pages tested an no Errors were found.
+- Color contrasts meet a minimum ratio.
+- Heading levels are present and not skipped to ensure importance of content.
+- All labels or aria-labels are in placed so that is read outload on a screen reader.
+- All images have alt labels that will display if image does not load.
+
+### Lighthouse Testing
+
+- Home Page[Home](assets/images/lighthouseHome.png)
+- Timetable[Timetable](assets/images/lighthouseTimetable.png)
+- Gallery[Gallery](assets/images/lighthouseGallery.png)
+- Sign Up[Signup](assets/images/lighthouseSignup.png)
+
+### Functional Testing
+
+- Nav Links
+  - Testing was performed to make sure all navigation links opened the correct pages.
+    - HOME - index.html
+    - TIMETABLE - timetable.html
+    - GALLERY - gallery.html
+    - SIGN UP - signup.html
+
+- Form Tests
+  - The form on the sign up page was tested to make sure it worked as intended.
+  - Steps Taken:
+    - Test 1: First Name, Last Name, Email Address entered. 1 of the 2 radio buttons ticked. Submit button clicked. User is taken to a "thank you" page confirming form submission and then automatically redirected back to the home screen after 10 secounds.
+    - Test 2: If any one of the First Name, Last Name, Email Address sections are left blank when submit button is clicked a "please fill in this field" messaged is displayed on missing info section.
+    - Test 3: If a none-email address is entered in the Email Address field a "please include an @ in the email address" messaged is displayed ensuring the error is fixed befor submiting.
+    - Form worked as intended.
+
+- Social Media Icons
+  - All social media icons located in the footer of the webpage, when clicked open in a new tab to the correct social media website.
+  - All links work as intended.
+
+- Contact Infomation Links
+  - When the user clicks on the Gym contact number on a mobile device they are promted to call using the devices phone app.
+  - When the user clicks on the Gym contact number on a laptop/PC/tablet they are promted to call using the devices phone app such as Facetime.
+  - When the user clicks on the Gym email address on any device the email application of said device opens in a new email tab.
+  - All contact links work as intended.
+
+### Validator Testing
+
+- HTML: No errros were returned when passing through the offical [W3C Validator](https://validator.w3.org)
+
+
+
 
 ### Bugs
 
@@ -113,8 +158,6 @@ Using this website you will be able to find all relevant information about the g
 - HTML: No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/#textarea)
 - CSS: No errors were returned when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator)
 - Accessibility: I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in Dev Tools.
-
-![Lighthouse](assets/images/lighthouse.png)
 
 ## Deployment
 
