@@ -91,6 +91,14 @@ Using this website you will be able to find all relevant information about the g
 
 ## Testing
 
+### Responsiveness
+
+- All pages were tested on various screen sizes from Galaxy Fold 280px upwards and all pages are responsive and functions as intended.
+- To test this webpage was loaded in browser and using Google Dev Tools each page was opened was changed to 280px and then the responsive window was dragged to max size.
+- All pages responsed as intended and no images were stretched or pixelated.
+- The timetable was given CSS code overflow to allow for screenscrolling on mobile phones screen sizes as reducing font size to fit made the content unreadable.
+- Some devices website was tested on outside of Dev Tools were: Iphone 11, Samsung A6, Macbook Air, HP M27fw FHD monitor.
+
 - I have tested the webpage across all different screen sizes, desktop, laptop, tablet and mobile and it is responsive and functions as intended.
 - All links work as intended and open in new tabs were required.
 - All text is readable and the contrast between text colours and background works well and causes no issues.
