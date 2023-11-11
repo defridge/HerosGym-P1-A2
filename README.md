@@ -62,14 +62,14 @@ Using this website you will be able to find all relevant information about the g
 
 ### Thank You Page
 
-- When a user of the site completes the form on the sign up page and hits submit they will be redirected to the thank you page which confirms the form submission has been succesful and after 10 secounds they will be automatically taken back to the webiste homepage.
+- When a user of the site completes the form on the sign up page and hits submit they will be redirected to the thank you page which confirms the form submission has been successful and after 10 seconds they will be automatically taken back to the website homepage.
 
 ![Thankyou](assets/images/thankyou.webp)
 
 ### 404 Error Page
 
-- A custome 404 page will be implemented and will display if a user navigates to a broken link.
-- The 404 page will allow the webiste user to navigate back to the homepage if they end up on a broken link / missing page, without the need of the browsers back button.
+- A custom 404 page will be implemented and will display if a user navigates to a broken link.
+- The 404 page will allow the website user to navigate back to the homepage if they end up on a broken link / missing page, without the need of the browser's back button.
 
 ![404](assets/images/404.webp)
 
@@ -78,7 +78,7 @@ Using this website you will be able to find all relevant information about the g
 - HTML
   - The webpage structure was created using HTML as the main language.
 - CSS
-  - The styling of the webiste was done using custom CSS saved in an external file.
+  - The styling of the website was done using custom CSS saved in an external file.
 - IDE
   - The website was developed using Codeanywhere IDE.
 - Github
@@ -93,27 +93,27 @@ Using this website you will be able to find all relevant information about the g
 
 ### Responsiveness
 
-- All pages were tested on various screen sizes from Galaxy Fold 280px upwards and all pages are responsive and functions as intended.
-- To test this webpage was loaded in browser and using Google Dev Tools each page was opened was changed to 280px and then the responsive window was dragged to max size.
-- All pages responsed as intended and no images were stretched or pixelated.
-- The timetable was given CSS code overflow to allow for screenscrolling on mobile phones screen sizes as reducing font size to fit made the content unreadable.
-- Some devices website was tested on outside of Dev Tools were: Iphone 11, Samsung A6, Macbook Air, HP M27fw FHD monitor.
+- All pages were tested on various screen sizes from Galaxy Fold 280px upwards and all pages are responsive and function as intended.
+- To test this the webpage was loaded in a browser and using Google Dev Tools each page was opened and was changed to 280px and then the responsive window was dragged to max size.
+- All pages responded as intended and no images were stretched or pixelated.
+- The timetable was given CSS code overflow to allow for side scrolling on mobile phones screen sizes as reducing font size to fit made the content unreadable.
+- Some devices the website was tested on outside of Dev Tools were: Iphone 11, Samsung A6, Macbook Air, HP M27fw FHD monitor.
 
 ### Accessibility
 
-- [Wave Accessibility](https://wave.webaim.org/) was used to test accessibility on final deployed website.
-- All pages tested an no Errors were found.
-- Color contrasts meet a minimum ratio.
-- Heading levels are present and not skipped to ensure importance of content.
-- All labels or aria-labels are in placed so that is read outload on a screen reader.
-- All images have alt labels that will display if image does not load.
+- [Wave Accessibility](https://wave.webaim.org/) was used to test accessibility on the final deployed website.
+- All pages tested and no Errors were found.
+- Colour contrasts meet a minimum ratio.
+- Heading levels are present and not skipped to ensure the importance of content.
+- All labels or aria-labels are in place so that it is read out loud on a screen reader.
+- All images have alt labels that will display if the image does not load.
 
 ### Lighthouse Testing
 
-- Home Page[Home](assets/images/lighthouseHome.png)
-- Timetable[Timetable](assets/images/lighthouseTimetable.png)
-- Gallery[Gallery](assets/images/lighthouseGallery.png)
-- Sign Up[Signup](assets/images/lighthouseSignup.png)
+- ![Home](assets/images/lighthouseHome.png)
+- ![Timetable](assets/images/lighthouseTimetable.png)
+- ![Gallery](assets/images/lighthouseGallery.png)
+- ![Signup](assets/images/lighthouseSignup.png)
 
 ### Functional Testing
 
@@ -127,37 +127,37 @@ Using this website you will be able to find all relevant information about the g
 - Form Tests
   - The form on the sign up page was tested to make sure it worked as intended.
   - Steps Taken:
-    - Test 1: First Name, Last Name, Email Address entered. 1 of the 2 radio buttons ticked. Submit button clicked. User is taken to a "thank you" page confirming form submission and then automatically redirected back to the home screen after 10 secounds.
-    - Test 2: If any one of the First Name, Last Name, Email Address sections are left blank when submit button is clicked a "please fill in this field" messaged is displayed on missing info section.
-    - Test 3: If a none-email address is entered in the Email Address field a "please include an @ in the email address" messaged is displayed ensuring the error is fixed befor submiting.
+    - Test 1: First Name, Last Name, Email Address entered. 1 of the 2 radio buttons ticked. Submit button clicked. User is taken to a "thank you" page confirming form submission and then automatically redirected back to the home screen after 10 seconds.
+    - Test 2: If any one of the First Name, Last Name, Email Address sections are left blank when the submit button is clicked a "please fill in this field" message is displayed on missing info section.
+    - Test 3: If a none-email address is entered in the Email Address field a "please include an @ in the email address" message is displayed ensuring the error is fixed before submitting.
     - Form worked as intended.
 
 - Social Media Icons
   - All social media icons located in the footer of the webpage, when clicked open in a new tab to the correct social media website.
   - All links work as intended.
 
-- Contact Infomation Links
-  - When the user clicks on the Gym contact number on a mobile device they are promted to call using the devices phone app.
-  - When the user clicks on the Gym contact number on a laptop/PC/tablet they are promted to call using the devices phone app such as Facetime.
+- Contact Information Links
+  - When the user clicks on the Gym contact number on a mobile device they are prompted to call using the devices phone app.
+  - When the user clicks on the Gym contact number on a laptop/PC/tablet they are prompted to call using the devices phone app such as Facetime.
   - When the user clicks on the Gym email address on any device the email application of said device opens in a new email tab.
   - All contact links work as intended.
 
 ### Validator Testing
 
-- HTML: No errros were returned when passing through the offical [W3C Validator](https://validator.w3.org)
+- HTML: No erros were returned when passing through the official [W3C Validator](https://validator.w3.org)
+  - ![Home](assets/images/w3cHome.png)
+  - ![Timetable](assets/images/w3cTimetable.png)
+  - ![Gallery](assets/images/w3cGallery.png)
+  - ![Singup](assets/images/w3cSignup.png)
+  - ![Thankyou](assets/images/w3cThankyou.png)
+  - ![404](assets/images/w3c404.png)
 
-
-
-
-### Bugs
-
-- When using validation tools I discovered that the image file paths had blank spaces which needed to be filled with "%20".
-
-### Validator Testing
-
-- HTML: No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/#textarea)
 - CSS: No errors were returned when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator)
-- Accessibility: I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in Dev Tools.
+  - ![CSS Validator](assets/images/CSSvalidator.png)
+
+### Unfixed Bugs
+
+- At the time of writing this Readme file no bugs have been found.
 
 ## Deployment
 
