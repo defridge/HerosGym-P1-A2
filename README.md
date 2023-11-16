@@ -1,6 +1,6 @@
 # Heros Gym
 
-The Heros Gym website is designed to give potential members an overview of the gym and what we are all about! Heros Gym offers “big gym” state of the art equipment and classes but with a “small gym” welcoming and encouraging atmosphere.
+The Heros Gym website is designed to give potential members an overview of the gym and what we are all about! Heros Gym offers “big gym” state of the art equipment and classes but with a “small gym” welcoming and encouraging atmosphere. The link to the live site can be found here: [Heros Gym](https://defridge.github.io/HerosGym-Project-1/)
 
 Using this website you will be able to find all relevant information about the gym including opening and closing times, the class timetable and descriptions of the classes we teach and a gallery showcasing the gym layout and equipment available. There is also a form section where potential members can register their interest and will be sent membership pricing.
 
@@ -165,7 +165,7 @@ Using this website you will be able to find all relevant information about the g
 - From the source section drop-down menu, select the Master Branch.
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The link to the live site can be found here: [Heros Gym](https://defridge.github.io/HerosGym-P1-A2/)
+The link to the live site can be found here: [Heros Gym](https://defridge.github.io/HerosGym-Project-1/)
 
 ## Credits
 
