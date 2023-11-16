@@ -44,7 +44,7 @@ Using this website you will be able to find all relevant information about the g
 - When viewing this page on a mobile screen the table is set to side scroll so it does not distort the layout of the page.
 - Below the timetable is a detailed description of all the classes which allows the user of the website to get an idea of how the class is taught.
 
-![Timetable](assets/images/timetable.webp)
+![Timetable](assets/images/timetableN.webp)
 
 ### Gallery Page
 
@@ -96,7 +96,6 @@ Using this website you will be able to find all relevant information about the g
 - All pages were tested on various screen sizes from Galaxy Fold 280px upwards and all pages are responsive and function as intended.
 - To test this the webpage was loaded in a browser and using Google Dev Tools each page was opened and was changed to 280px and then the responsive window was dragged to max size.
 - All pages responded as intended and no images were stretched or pixelated.
-- The timetable was given CSS code overflow to allow for side scrolling on mobile phones screen sizes as reducing font size to fit made the content unreadable.
 - Some devices the website was tested on outside of Dev Tools were: Iphone 11, Samsung A6, Macbook Air, HP M27fw FHD monitor.
 
 ### Accessibility
