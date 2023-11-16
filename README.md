@@ -5,7 +5,7 @@ The Heros Gym website is designed to give potential members an overview of the g
 Using this website you will be able to find all relevant information about the gym including opening and closing times, the class timetable and descriptions of the classes we teach and a gallery showcasing the gym layout and equipment available. There is also a form section where potential members can register their interest and will be sent membership pricing.
 
 
-![Responsive Mockup](assets/images/mockup.webp)
+![Responsive Mockup](assets/images/mockupN.webp)
 
 ## Features
 
